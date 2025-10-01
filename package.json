@@ -1,0 +1,25 @@
+{
+  "name": "zendarox-vault",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Zendarox Vault — isolated lending + yield router (internal QA)",
+  "workspaces": [
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "server": "node scripts/server.mjs",
+    "stop": "node scripts/stop.mjs",
+    "build": "npm run build -w @zendarox/shared && npm run build -w @zendarox/simulator && npm run build -w @zendarox/console && npm run build -w @zendarox/api",
+    "verify": "node scripts/verify.mjs",
+    "test": "npm run test -w @zendarox/simulator",
+    "test:contracts": "cd contracts && forge test",
+    "setup": "node scripts/setup.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.3",
+    "typescript": "^5.8.3"
+  }
+}
