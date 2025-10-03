@@ -1,5 +1,5 @@
-# Milestone 1
+# Milestone 2
 
-initialize zendarox-vault monorepo workspaces
+add tsconfig base and workspace scripts
 
 Zendarox Vault protocol lab
