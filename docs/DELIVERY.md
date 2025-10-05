@@ -1,5 +1,5 @@
-# Milestone 2
+# Milestone 3
 
-add tsconfig base and workspace scripts
+configure foundry.toml and remappings
 
 Zendarox Vault protocol lab
