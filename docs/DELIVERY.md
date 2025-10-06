@@ -1,5 +1,5 @@
-# Milestone 3
+# Milestone 4
 
-configure foundry.toml and remappings
+add CONTRIBUTING and SECURITY policy stubs
 
 Zendarox Vault protocol lab
