@@ -1,5 +1,5 @@
-# Milestone 4
+# Milestone 5
 
-add CONTRIBUTING and SECURITY policy stubs
+scaffold docs and ADR directory
 
 Zendarox Vault protocol lab
