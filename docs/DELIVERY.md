@@ -1,5 +1,5 @@
-# Milestone 5
+# Milestone 6
 
-scaffold docs and ADR directory
+add .env.example for local dev
 
 Zendarox Vault protocol lab
