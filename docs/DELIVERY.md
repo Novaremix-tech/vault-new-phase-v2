@@ -1,5 +1,5 @@
-# Milestone 6
+# Milestone 7
 
-add .env.example for local dev
+configure npm workspaces for packages/*
 
 Zendarox Vault protocol lab
