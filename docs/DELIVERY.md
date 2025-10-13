@@ -1,5 +1,5 @@
-# Milestone 7
+# Milestone 8
 
-configure npm workspaces for packages/*
+add START.bat Windows launcher
 
 Zendarox Vault protocol lab
