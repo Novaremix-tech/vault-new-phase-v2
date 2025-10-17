@@ -1,5 +1,5 @@
-# Milestone 9
+# Milestone 10
 
-add IYieldRouter interface
+implement ZendaroxVault ERC-4626 core
 
 Zendarox Vault protocol lab
