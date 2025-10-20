@@ -1,5 +1,5 @@
-# Milestone 10
+# Milestone 12
 
-implement ZendaroxVault ERC-4626 core
+implement withdraw with health factor gate
 
 Zendarox Vault protocol lab
