@@ -1,5 +1,5 @@
-# Milestone 14
+# Milestone 15
 
-implement borrow and repay flows
+add liquidation threshold per market
 
 Zendarox Vault protocol lab
