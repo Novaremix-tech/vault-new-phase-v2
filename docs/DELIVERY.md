@@ -1,5 +1,5 @@
-# Milestone 23
+# Milestone 24
 
-share conversion rounding fuzz cases
+MarketInvariants invariant suite scaffold
 
 Zendarox Vault protocol lab
