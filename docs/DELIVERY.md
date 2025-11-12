@@ -1,5 +1,5 @@
-# Milestone 24
+# Milestone 25
 
-MarketInvariants invariant suite scaffold
+economic simulator v2 engine scaffold
 
 Zendarox Vault protocol lab
