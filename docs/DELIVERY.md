@@ -1,5 +1,5 @@
-# Milestone 25
+# Milestone 26
 
-economic simulator v2 engine scaffold
+baseline scenario runner CLI
 
 Zendarox Vault protocol lab
