@@ -1,5 +1,5 @@
-# Milestone 26
+# Milestone 28
 
-baseline scenario runner CLI
+utilization curve metrics collector
 
 Zendarox Vault protocol lab
