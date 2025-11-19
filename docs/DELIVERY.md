@@ -1,5 +1,5 @@
-# Milestone 28
+# Milestone 29
 
-utilization curve metrics collector
+liquidation cascade detector
 
 Zendarox Vault protocol lab
