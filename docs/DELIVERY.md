@@ -1,5 +1,5 @@
-# Milestone 29
+# Milestone 30
 
-liquidation cascade detector
+fee accrual projection module
 
 Zendarox Vault protocol lab
