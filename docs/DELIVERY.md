@@ -1,5 +1,5 @@
-# Milestone 31
+# Milestone 32
 
-simulator unit test harness
+export run summary JSON artifacts
 
 Zendarox Vault protocol lab
