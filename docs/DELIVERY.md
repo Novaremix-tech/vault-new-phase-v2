@@ -1,5 +1,5 @@
-# Milestone 33
+# Milestone 34
 
-Fastify server bootstrap on port 4000
+health and version endpoints
 
 Zendarox Vault protocol lab
