@@ -1,5 +1,5 @@
-# Milestone 36
+# Milestone 37
 
-simulation trigger endpoint
+static console asset serving
 
 Zendarox Vault protocol lab
