@@ -1,5 +1,5 @@
-# Milestone 37
+# Milestone 38
 
-static console asset serving
+CORS and request logging middleware
 
 Zendarox Vault protocol lab
