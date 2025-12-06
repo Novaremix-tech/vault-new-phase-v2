@@ -1,5 +1,5 @@
-# Milestone 38
+# Milestone 39
 
-CORS and request logging middleware
+playground dev utilities route
 
 Zendarox Vault protocol lab
