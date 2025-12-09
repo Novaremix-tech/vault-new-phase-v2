@@ -1,5 +1,5 @@
-# Milestone 40
+# Milestone 41
 
-API error envelope standardization
+Vite React console package scaffold
 
 Zendarox Vault protocol lab
