@@ -1,5 +1,5 @@
-# Milestone 41
+# Milestone 42
 
-Vite React console package scaffold
+App shell with tab navigation
 
 Zendarox Vault protocol lab
