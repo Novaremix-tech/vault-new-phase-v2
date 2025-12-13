@@ -1,5 +1,5 @@
-# Milestone 42
+# Milestone 43
 
-App shell with tab navigation
+TopBar brand and status indicators
 
 Zendarox Vault protocol lab
