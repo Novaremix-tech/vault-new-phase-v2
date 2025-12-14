@@ -1,5 +1,5 @@
-# Milestone 43
+# Milestone 44
 
-TopBar brand and status indicators
+TanStack Query provider wiring
 
 Zendarox Vault protocol lab
