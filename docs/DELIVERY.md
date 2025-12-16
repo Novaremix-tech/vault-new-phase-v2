@@ -1,5 +1,5 @@
-# Milestone 44
+# Milestone 45
 
-TanStack Query provider wiring
+Zustand vault store bootstrap
 
 Zendarox Vault protocol lab
