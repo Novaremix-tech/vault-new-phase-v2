@@ -1,5 +1,5 @@
-# Milestone 46
+# Milestone 47
 
-Try It deposit routing panel
+borrow health factor panel
 
 Zendarox Vault protocol lab
