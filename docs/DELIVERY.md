@@ -1,5 +1,5 @@
-# Milestone 47
+# Milestone 48
 
-borrow health factor panel
+ETH stress scenario panel
 
 Zendarox Vault protocol lab
