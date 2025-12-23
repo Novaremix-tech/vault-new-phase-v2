@@ -1,5 +1,5 @@
-# Milestone 48
+# Milestone 49
 
-ETH stress scenario panel
+shared types for markets and vault
 
 Zendarox Vault protocol lab
