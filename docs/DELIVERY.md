@@ -1,5 +1,5 @@
-# Milestone 49
+# Milestone 50
 
-shared types for markets and vault
+market config seed fixtures
 
 Zendarox Vault protocol lab
