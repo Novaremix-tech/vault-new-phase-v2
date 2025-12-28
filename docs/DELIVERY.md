@@ -1,5 +1,5 @@
-# Milestone 50
+# Milestone 52
 
-market config seed fixtures
+chain ID constants module
 
 Zendarox Vault protocol lab
