@@ -1,5 +1,5 @@
-# Milestone 52
+# Milestone 53
 
-chain ID constants module
+shared package build pipeline
 
 Zendarox Vault protocol lab
