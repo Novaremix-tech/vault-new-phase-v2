@@ -1,5 +1,5 @@
-# Milestone 53
+# Milestone 54
 
-shared package build pipeline
+shared types for markets and vault (2)
 
 Zendarox Vault protocol lab
