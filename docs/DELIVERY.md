@@ -1,5 +1,5 @@
-# Milestone 56
+# Milestone 57
 
-scenario definitions export (2)
+zendarox CLI bin entrypoint
 
 Zendarox Vault protocol lab
