@@ -1,5 +1,5 @@
-# Milestone 59
+# Milestone 60
 
-sim run subcommand wrapper
+CLI package build configuration
 
 Zendarox Vault protocol lab
