@@ -1,5 +1,5 @@
-# Milestone 60
+# Milestone 61
 
-CLI package build configuration
+zendarox CLI bin entrypoint (2)
 
 Zendarox Vault protocol lab
