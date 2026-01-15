@@ -1,5 +1,5 @@
-# Milestone 61
+# Milestone 62
 
-zendarox CLI bin entrypoint (2)
+doctor subcommand for local setup (2)
 
 Zendarox Vault protocol lab
