@@ -1,5 +1,5 @@
-# Milestone 62
+# Milestone 63
 
-doctor subcommand for local setup (2)
+sim run subcommand wrapper (2)
 
 Zendarox Vault protocol lab
