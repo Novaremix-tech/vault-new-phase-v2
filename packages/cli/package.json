@@ -1,0 +1,18 @@
+{
+  "name": "@zendarox/cli",
+  "version": "0.4.0-internal",
+  "type": "module",
+  "bin": {
+    "zendarox": "./dist/bin/zendarox.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "@zendarox/shared": "*",
+    "@zendarox/simulator": "*"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
