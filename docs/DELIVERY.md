@@ -1,5 +1,5 @@
-# Milestone 64
+# Milestone 65
 
-CLI package build configuration (2)
+server.mjs orchestration script
 
 Zendarox Vault protocol lab
