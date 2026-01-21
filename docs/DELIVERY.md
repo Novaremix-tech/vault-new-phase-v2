@@ -1,5 +1,5 @@
-# Milestone 65
+# Milestone 66
 
-server.mjs orchestration script
+setup.mjs foundry dependency installer
 
 Zendarox Vault protocol lab
