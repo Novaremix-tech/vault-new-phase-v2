@@ -1,5 +1,5 @@
-# Milestone 67
+# Milestone 68
 
-stop.mjs port cleanup utility
+verify.mjs CI verification runner
 
 Zendarox Vault protocol lab
