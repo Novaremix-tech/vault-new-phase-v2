@@ -1,5 +1,5 @@
-# Milestone 68
+# Milestone 69
 
-verify.mjs CI verification runner
+one-command npm run server flow
 
 Zendarox Vault protocol lab
