@@ -1,5 +1,5 @@
-# Milestone 70
+# Milestone 71
 
-server.mjs orchestration script (2)
+setup.mjs foundry dependency installer (2)
 
 Zendarox Vault protocol lab
