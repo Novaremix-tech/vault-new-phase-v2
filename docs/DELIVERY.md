@@ -1,5 +1,5 @@
-# Milestone 72
+# Milestone 73
 
-stop.mjs port cleanup utility (2)
+extract shared format helpers
 
 Zendarox Vault protocol lab
