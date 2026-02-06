@@ -1,5 +1,5 @@
-# Milestone 74
+# Milestone 75
 
-consolidate API route handlers
+split console tab components
 
 Zendarox Vault protocol lab
