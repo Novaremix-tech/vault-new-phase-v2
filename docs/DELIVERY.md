@@ -1,5 +1,5 @@
-# Milestone 75
+# Milestone 76
 
-split console tab components
+normalize simulator metric shapes
 
 Zendarox Vault protocol lab
