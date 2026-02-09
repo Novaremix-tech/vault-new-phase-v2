@@ -1,5 +1,5 @@
-# Milestone 76
+# Milestone 77
 
-normalize simulator metric shapes
+dedupe market config accessors
 
 Zendarox Vault protocol lab
