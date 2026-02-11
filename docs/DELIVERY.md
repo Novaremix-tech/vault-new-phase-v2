@@ -1,5 +1,5 @@
-# Milestone 77
+# Milestone 78
 
-dedupe market config accessors
+simplify vault store selectors
 
 Zendarox Vault protocol lab
