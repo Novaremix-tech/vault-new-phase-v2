@@ -1,5 +1,5 @@
-# Milestone 78
+# Milestone 79
 
-simplify vault store selectors
+extract chart config constants
 
 Zendarox Vault protocol lab
