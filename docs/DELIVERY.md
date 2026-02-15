@@ -1,5 +1,5 @@
-# Milestone 79
+# Milestone 80
 
-extract chart config constants
+unify error types in shared package
 
 Zendarox Vault protocol lab
