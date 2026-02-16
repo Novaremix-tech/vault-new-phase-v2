@@ -1,6 +1,6 @@
 {
   "name": "zendarox-vault",
-  "version": "0.7.10",
+  "version": "0.8.1",
   "private": true,
   "description": "Zendarox Vault — isolated lending + yield router (internal QA)",
   "workspaces": [
