@@ -1,5 +1,5 @@
-# Milestone 81
+# Milestone 82
 
-architecture overview for isolated markets
+ADR-001 isolated markets decision
 
 Zendarox Vault protocol lab
