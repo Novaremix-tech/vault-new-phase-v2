@@ -1,5 +1,5 @@
-# Milestone 86
+# Milestone 87
 
-audit readiness checklist
+SAFE-RUN local operations guide
 
 Zendarox Vault protocol lab
