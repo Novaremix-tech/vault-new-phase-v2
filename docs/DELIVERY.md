@@ -1,5 +1,5 @@
-# Milestone 87
+# Milestone 88
 
-SAFE-RUN local operations guide
+README client-facing run instructions
 
 Zendarox Vault protocol lab
