@@ -1,5 +1,5 @@
 import * as Select from "@radix-ui/react-select";
-import { MARKETS_V2 } from "@zendarox/shared";
+import { MARKETS_V2 } from "@novaremix/shared";
 import { ChevronDown, Loader2 } from "lucide-react";
 import { useState } from "react";
 import { useMutation } from "@tanstack/react-query";

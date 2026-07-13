@@ -1,5 +1,5 @@
 {
-  "name": "@zendarox/simulator",
+  "name": "@novaremix/simulator",
   "version": "0.4.0-internal",
   "type": "module",
   "main": "./dist/index.js",
@@ -14,7 +14,7 @@
     "run": "npm run build && node dist/cli.js run"
   },
   "dependencies": {
-    "@zendarox/shared": "*"
+    "@novaremix/shared": "*"
   },
   "devDependencies": {
     "typescript": "^5.8.3"

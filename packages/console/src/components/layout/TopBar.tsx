@@ -10,7 +10,7 @@ export function TopBar() {
       <div className="brand">
         <div className="logo">C</div>
         <div>
-          <h1>Zendarox Vault</h1>
+          <h1>novaremix Vault</h1>
           <p>Protocol Lab · React console · simulation-backed</p>
         </div>
       </div>

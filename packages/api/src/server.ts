@@ -4,9 +4,9 @@ import fastifyStatic from "@fastify/static";
 import net from "node:net";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
-import { PROTOCOL, MARKETS_V2, STRATEGIES_V2 } from "@zendarox/shared";
-import { runSimulation } from "@zendarox/simulator";
-import type { SimulationReport, VaultStatus } from "@zendarox/shared";
+import { PROTOCOL, MARKETS_V2, STRATEGIES_V2 } from "@novaremix/shared";
+import { runSimulation } from "@novaremix/simulator";
+import type { SimulationReport, VaultStatus } from "@novaremix/shared";
 import { simulateDeposit, checkBorrowHealth } from "./playground.js";
 
 const apiRoot = join(dirname(fileURLToPath(import.meta.url)), "..");
@@ -15,7 +15,7 @@ const consoleDist = join(apiRoot, "..", "console", "dist");
 let latestReport: SimulationReport | null = null;
 
 const CONTRACT_MAP = [
-  { path: "contracts/src/core/ZendaroxVault.sol", role: "ERC-4626 entry vault · share accounting" },
+  { path: "contracts/src/core/novaremixVault.sol", role: "ERC-4626 entry vault · share accounting" },
   { path: "contracts/src/core/IsolatedMarket.sol", role: "Per-asset lending · isolation boundary" },
   { path: "contracts/src/core/YieldRouter.sol", role: "Weighted strategy allocation" },
   { path: "contracts/src/governance/PauseGuardian.sol", role: "Circuit breaker ownership" },
@@ -87,7 +87,7 @@ export async function buildServer() {
   }));
 
   app.get("/v1/roadmap", async () => ({
-    activePhase: "May – Jul 2026 · Zendarox Vault",
+    activePhase: "May – Jul 2026 · novaremix Vault",
     contractVersion: PROTOCOL.version,
     auditSprint: PROTOCOL.auditSprint,
     launchTarget: PROTOCOL.launchTarget,
@@ -177,7 +177,7 @@ async function main() {
   const port = await findOpenPort(Number(process.env.PORT ?? 4000));
   await app.listen({ port, host: "0.0.0.0" });
   console.log("\n  ╔══════════════════════════════════════════╗");
-  console.log("  ║  Zendarox Vault — Protocol Dashboard     ║");
+  console.log("  ║  novaremix Vault — Protocol Dashboard     ║");
   console.log("  ╚══════════════════════════════════════════╝");
   console.log(`\n  →  http://localhost:${port}\n`);
 }

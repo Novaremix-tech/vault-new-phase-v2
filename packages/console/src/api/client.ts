@@ -4,7 +4,7 @@ import type {
   SimulationReport,
   StrategyAllocation,
   VaultStatus,
-} from "@zendarox/shared";
+} from "@novaremix/shared";
 
 const http = ky.create({ prefixUrl: location.origin });
 

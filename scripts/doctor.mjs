@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-/** Environment & toolchain checks for Zendarox Vault contributors */
+/** Environment & toolchain checks for novaremix Vault contributors */
 
 import { execSync } from "node:child_process";
 import { existsSync } from "node:fs";
@@ -15,7 +15,7 @@ function check(label, ok, detail = "") {
 }
 
 export function runDoctor() {
-  console.log("\n  Zendarox Vault — doctor\n");
+  console.log("\n  novaremix Vault — doctor\n");
   const nodeOk = check("Node.js >= 20", Number(process.version.slice(1).split(".")[0]) >= 20, process.version);
 
   let forgeOk = false;

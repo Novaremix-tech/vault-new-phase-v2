@@ -1,8 +1,8 @@
 {
-  "name": "zendarox-vault",
-  "version": "0.8.7",
+  "name": "novaremix-vault",
+  "version": "0.8.8",
   "private": true,
-  "description": "Zendarox Vault — isolated lending + yield router (internal QA)",
+  "description": "Novaremix Vault — isolated lending + yield router (internal QA)",
   "workspaces": [
     "packages/*"
   ],
@@ -12,9 +12,9 @@
   "scripts": {
     "server": "node scripts/server.mjs",
     "stop": "node scripts/stop.mjs",
-    "build": "npm run build -w @zendarox/shared && npm run build -w @zendarox/simulator && npm run build -w @zendarox/console && npm run build -w @zendarox/api",
+    "build": "npm run build -w @novaremix/shared && npm run build -w @novaremix/simulator && npm run build -w @novaremix/console && npm run build -w @novaremix/api",
     "verify": "node scripts/verify.mjs",
-    "test": "npm run test -w @zendarox/simulator",
+    "test": "npm run test -w @novaremix/simulator",
     "test:contracts": "cd contracts && forge test",
     "setup": "node scripts/setup.mjs"
   },

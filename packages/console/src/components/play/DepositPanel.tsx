@@ -1,5 +1,5 @@
 import * as Slider from "@radix-ui/react-slider";
-import { ROUTER_POOLS } from "@zendarox/shared";
+import { ROUTER_POOLS } from "@novaremix/shared";
 import { motion } from "framer-motion";
 import { ArrowRight, Loader2 } from "lucide-react";
 import { useState } from "react";
@@ -33,7 +33,7 @@ export function DepositPanel() {
         <div>
           <h2>Simulate a deposit</h2>
           <p>
-            <code>ZendaroxVault.deposit()</code> → <code>YieldRouter.routeDeposit()</code>
+            <code>novaremixVault.deposit()</code> → <code>YieldRouter.routeDeposit()</code>
           </p>
         </div>
       </div>

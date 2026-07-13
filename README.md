@@ -1,4 +1,4 @@
-# Zendarox Vault
+# Novaremix Vault
 
 Isolated lending + yield router · v0.4 internal QA
 
@@ -27,8 +27,8 @@ Windows: double-click **`START.bat`**
 ## Project layout
 
 ```
-zendarox-vault/
-├── contracts/          Foundry — ZendaroxVault, IsolatedMarket, YieldRouter
+novaremix-vault/
+├── contracts/          Foundry — NovaremixVault, IsolatedMarket, YieldRouter
 ├── packages/
 │   ├── shared/         Types, market config, scenarios
 │   ├── simulator/      Economic simulation v2
@@ -61,4 +61,4 @@ React dashboard with **Radix UI**, **Recharts**, **TanStack Query**, **Zustand**
 | `npm run test:contracts` | Foundry (after `npm run setup`) |
 | `npm run setup` | Install Foundry deps |
 
-**Zendarox** · San Francisco · Remote worldwide
+**Novaremix** · San Francisco · Remote worldwide

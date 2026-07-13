@@ -4,8 +4,8 @@ import type {
   SimulationScenario,
   SimulationSnapshot,
   StrategyAllocation,
-} from "@zendarox/shared";
-import { MARKETS_V2, SCENARIOS, STRATEGIES_V2 } from "@zendarox/shared";
+} from "@novaremix/shared";
+import { MARKETS_V2, SCENARIOS, STRATEGIES_V2 } from "@novaremix/shared";
 
 const BASE_TVL = 18_400_000;
 
@@ -127,7 +127,7 @@ export function formatReport(report: SimulationReport): string {
   const s = report.summary;
   const lines = [
     "",
-    "  Zendarox Vault — Economic Simulation v2",
+    "  novaremix Vault — Economic Simulation v2",
     "  ─────────────────────────────────────────",
     `  Scenario     ${report.scenario.label}`,
     `  Duration     ${report.scenario.durationDays} days`,

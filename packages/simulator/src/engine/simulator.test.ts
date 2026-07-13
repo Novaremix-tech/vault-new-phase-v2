@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 import { runSimulation } from "../engine/simulator.js";
-import { MARKETS_V2, PROTOCOL, STRATEGIES_V2 } from "@zendarox/shared";
+import { MARKETS_V2, PROTOCOL, STRATEGIES_V2 } from "@novaremix/shared";
 
 test("PROTOCOL metadata is consistent", () => {
   assert.equal(PROTOCOL.version, "0.4.0-internal");

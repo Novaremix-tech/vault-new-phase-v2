@@ -59,7 +59,7 @@ function Boot() {
           review={<ReviewView />}
           learn={<LearnView />}
         />
-        <footer className="footer">Zendarox · v0.4 · @zendarox/console</footer>
+        <footer className="footer">novaremix · v0.4 · @novaremix/console</footer>
       </div>
     </>
   );

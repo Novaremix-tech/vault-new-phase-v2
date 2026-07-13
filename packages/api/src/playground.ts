@@ -1,4 +1,4 @@
-import { MARKETS_V2, ROUTER_POOLS } from "@zendarox/shared";
+import { MARKETS_V2, ROUTER_POOLS } from "@novaremix/shared";
 
 const fmt = (n: number) =>
   "$" + n.toLocaleString(undefined, { maximumFractionDigits: 0 });
@@ -31,7 +31,7 @@ export function simulateDeposit(amountUsd: number): DepositSimulation {
   });
 
   const steps = [
-    `You deposit ${fmt(amount)} into Zendarox Vault.`,
+    `You deposit ${fmt(amount)} into novaremix Vault.`,
     `Vault mints ${fmt(amount)} zdrVault shares (1:1 at first deposit).`,
     `YieldRouter.routeDeposit() splits capital by weight:`,
     ...routes.map(

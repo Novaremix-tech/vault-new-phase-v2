@@ -1,6 +1,6 @@
 # Contributing
 
-Thanks for reviewing Zendarox Vault. We optimize for senior engineers who want to **run first, read second**.
+Thanks for reviewing Novaremix Vault. We optimize for senior engineers who want to **run first, read second**.
 
 ## Setup
 
@@ -27,4 +27,4 @@ chore(sim): tune stress ETH drawdown to 42%
 
 ## Questions
 
-hello@zendarox.com · Internal contributors: #vault-dev
+hello@novaremix.com · Internal contributors: #vault-dev

@@ -2,7 +2,7 @@
 pragma solidity ^0.8.24;
 
 import {Script} from "forge-std/Script.sol";
-import {ZendaroxVault} from "../src/core/ZendaroxVault.sol";
+import {NovaremixVault} from "../src/core/ZendaroxVault.sol";
 import {IsolatedMarket} from "../src/core/IsolatedMarket.sol";
 import {YieldRouter} from "../src/core/YieldRouter.sol";
 import {PauseGuardian} from "../src/governance/PauseGuardian.sol";

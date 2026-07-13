@@ -2,7 +2,7 @@
 
 ## Reporting
 
-Email **security@zendarox.com** with:
+Email **security@novaremix.com** with:
 
 - Description and reproduction steps
 - Impact assessment if known

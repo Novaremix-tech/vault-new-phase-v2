@@ -7,7 +7,7 @@ import { fileURLToPath } from "node:url";
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const contracts = join(root, "contracts");
 
-console.log("\n  Zendarox Vault — setup\n");
+console.log("\n  novaremix Vault — setup\n");
 
 if (!existsSync(join(contracts, "lib", "forge-std"))) {
   console.log("  Installing forge-std...");

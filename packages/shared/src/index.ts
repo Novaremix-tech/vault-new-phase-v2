@@ -1,7 +1,7 @@
-/** Zendarox Vault — shared domain types (v0.4 internal QA) */
+/** novaremix Vault — shared domain types (v0.4 internal QA) */
 
 export const PROTOCOL = {
-  name: "Zendarox Vault",
+  name: "novaremix Vault",
   version: "0.4.0-internal",
   stage: "internal-qa" as const,
   auditSprint: "2026-08",

@@ -1,5 +1,5 @@
 import { create } from "zustand";
-import type { SimulationReport, VaultStatus } from "@zendarox/shared";
+import type { SimulationReport, VaultStatus } from "@novaremix/shared";
 import type { HealthResponse } from "../api/client";
 
 interface VaultStore {

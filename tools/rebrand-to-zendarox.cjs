@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-/** Replace ChainNextGen branding with Zendarox across source (not node_modules). */
+/** Replace ChainNextGen branding with novaremix across source (not node_modules). */
 const fs = require("fs");
 const path = require("path");
 
@@ -8,28 +8,28 @@ const SKIP = new Set(["node_modules", ".git"]);
 const TEXT = new Set([".ts", ".tsx", ".js", ".mjs", ".cjs", ".json", ".md", ".sol", ".bat", ".txt", ".html", ".example"]);
 
 const REPS = [
-  ["CHAINNEXTGEN VAULT", "ZENDAROX VAULT"],
-  ["ChainNextGen Vault", "Zendarox Vault"],
-  ["ChainNextGenVault", "ZendaroxVault"],
-  ["ChainNextGen", "Zendarox"],
-  ["chainnextgen-vault", "zendarox-vault"],
-  ["@chainnextgen/", "@zendarox/"],
-  ["chainnextgen.com", "zendarox.com"],
+  ["CHAINNEXTGEN VAULT", "novaremix VAULT"],
+  ["ChainNextGen Vault", "novaremix Vault"],
+  ["ChainNextGenVault", "novaremixVault"],
+  ["ChainNextGen", "novaremix"],
+  ["chainnextgen-vault", "novaremix-vault"],
+  ["@chainnextgen/", "@novaremix/"],
+  ["chainnextgen.com", "novaremix.com"],
   ["cngVault", "zdrVault"],
-  ["npx chainnextgen", "npx zendarox"],
-  ["chainnextgen sim", "zendarox sim"],
-  ["chainnextgen doctor", "zendarox doctor"],
-  ["chainnextgen —", "zendarox —"],
-  ['"chainnextgen":', '"zendarox":'],
-  ["chainnextgen.js", "zendarox.js"],
-  ["chainnextgen.ts", "zendarox.ts"],
-  ["(`chainnextgen sim run`)", "(`zendarox sim run`)"],
+  ["npx chainnextgen", "npx novaremix"],
+  ["chainnextgen sim", "novaremix sim"],
+  ["chainnextgen doctor", "novaremix doctor"],
+  ["chainnextgen —", "novaremix —"],
+  ['"chainnextgen":', '"novaremix":'],
+  ["chainnextgen.js", "novaremix.js"],
+  ["chainnextgen.ts", "novaremix.ts"],
+  ["(`chainnextgen sim run`)", "(`novaremix sim run`)"],
 ];
 
 const RENAMES = [
-  ["contracts/src/core/ChainNextGenVault.sol", "contracts/src/core/ZendaroxVault.sol"],
-  ["contracts/test/ChainNextGenVault.t.sol", "contracts/test/ZendaroxVault.t.sol"],
-  ["packages/cli/src/bin/chainnextgen.ts", "packages/cli/src/bin/zendarox.ts"],
+  ["contracts/src/core/ChainNextGenVault.sol", "contracts/src/core/novaremixVault.sol"],
+  ["contracts/test/ChainNextGenVault.t.sol", "contracts/test/novaremixVault.t.sol"],
+  ["packages/cli/src/bin/chainnextgen.ts", "packages/cli/src/bin/novaremix.ts"],
 ];
 
 function walk(dir, out = []) {
@@ -46,7 +46,7 @@ function walk(dir, out = []) {
 let n = 0;
 for (const f of walk(ROOT)) {
   const base = path.basename(f);
-  if (base === "rebrand-to-zendarox.cjs" || base === "rebrand-chainnextgen.cjs") continue;
+  if (base === "rebrand-to-novaremix.cjs" || base === "rebrand-chainnextgen.cjs") continue;
   if (!TEXT.has(path.extname(f).toLowerCase()) && !f.endsWith(".env.example")) continue;
   let t = fs.readFileSync(f, "utf8");
   const o = t;
